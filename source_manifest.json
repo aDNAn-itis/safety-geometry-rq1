@@ -1,0 +1,68 @@
+{
+  "notebooks": [
+    {
+      "source_name": "notebook1st.ipynb",
+      "source_sha256": "e2716fe65654abdd960f163010bdf4249f0f0aebf78ef20a296cb16bbb255c93",
+      "repository_path": "notebooks/01_feature_coverage.ipynb",
+      "repository_sha256": "5e01b1b4b3663b98f54a799ce7908fd3bc117f8b0957922ce8196d92dd32b70a",
+      "cell_count": 25,
+      "changes": [
+        {
+          "cell_index": 24,
+          "change": "Convert explanatory prose from code to Markdown; text unchanged."
+        }
+      ],
+      "saved_outputs": "Preserved from the supplied notebook; not regenerated during packaging."
+    },
+    {
+      "source_name": "notebook-2.ipynb",
+      "source_sha256": "790d28a3df51e82e05fddbc77568792d1ab1433ec9dd16ea00f1b6499f7e6b5c",
+      "repository_path": "notebooks/02_candidate_discovery.ipynb",
+      "repository_sha256": "1b0e14c03f15321c6ad66270505e30905215ad92a8190062dcfe527579f855ac",
+      "cell_count": 30,
+      "changes": [
+        {
+          "cell_index": 29,
+          "change": "Convert explanatory prose from code to Markdown; text unchanged."
+        }
+      ],
+      "saved_outputs": "Preserved from the supplied notebook; not regenerated during packaging."
+    },
+    {
+      "source_name": "notebook-3.ipynb",
+      "source_sha256": "f0650bb54e28c0726408529d7f271851ccf6e2dc5d2832f0249ffb876074ed0f",
+      "repository_path": "notebooks/03_reconstruction_and_removal.ipynb",
+      "repository_sha256": "f9f6fae73e400b466b4b8284a363e379f720f8003a1c01c2d47ac6e91e97a560",
+      "cell_count": 27,
+      "changes": [],
+      "saved_outputs": "Preserved from the supplied notebook; not regenerated during packaging."
+    },
+    {
+      "source_name": "notebook-4.ipynb",
+      "source_sha256": "d4007f7ecaa68d5ecf690a7ce3c88c54614b9f5132b055b7a420870f5ecd03ac",
+      "repository_path": "notebooks/04_persona_activation_mapping.ipynb",
+      "repository_sha256": "5db0f845d1696bc0765b5b8a19c67ba547ba8c8fb52519c7db1ea46af88a0a1f",
+      "cell_count": 27,
+      "changes": [],
+      "saved_outputs": "Preserved from the supplied notebook; not regenerated during packaging."
+    },
+    {
+      "source_name": "notebook-5.ipynb",
+      "source_sha256": "aa742f5aa456584a36e3d4919a501ca554b5d1154582c952260c6f5d0820c2b1",
+      "repository_path": "notebooks/05_five_feature_interventions.ipynb",
+      "repository_sha256": "e2cb6c83562f1e8e0641abdf24f61009c4d00dadc78cc2149a45e3e1e1cef326",
+      "cell_count": 22,
+      "changes": [],
+      "saved_outputs": "Preserved from the supplied notebook; not regenerated during packaging."
+    },
+    {
+      "source_name": "notebook-6.ipynb",
+      "source_sha256": "53bd5585588661001ec77c2d455e248765e598b3ca5e9aa4d8cf6442b6acd155",
+      "repository_path": "notebooks/06_layer_trajectories.ipynb",
+      "repository_sha256": "5e2666f3791b510f7ffddff9884535c686eebb6c3e9f1fde273a8e8d5116de0e",
+      "cell_count": 24,
+      "changes": [],
+      "saved_outputs": "Preserved from the supplied notebook; not regenerated during packaging."
+    }
+  ]
+}
