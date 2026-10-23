@@ -14,11 +14,12 @@ from IPython.core.inputtransformer2 import TransformerManager
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def results_start(book):
-    matches = [i for i, cell in enumerate(book.cells)
-               if cell.cell_type == "markdown" and cell.source.lstrip().startswith("# Results:")]
+def results_start(book, cell_id):
+    matches = [i for i, cell in enumerate(book.cells) if cell.id == cell_id]
     if len(matches) != 1:
-        raise ValueError("Expected exactly one Results section")
+        raise ValueError("The recorded CPU analysis start cell is missing or duplicated")
+    if book.cells[matches[0]].cell_type != "code":
+        raise ValueError("The CPU analysis must start at a code cell")
     return matches[0]
 
 
@@ -33,7 +34,7 @@ def validate():
         book = nbformat.read(path, as_version=4)
         nbformat.validate(book)
         assert len(book.cells) == entry["cell_count"]
-        results_start(book)
+        results_start(book, entry["results_start_cell_id"])
         for i, cell in enumerate(book.cells):
             if cell.cell_type == "code":
                 ast.parse(transform.transform_cell(cell.source), filename=f"{path.name}:cell-{i}")
@@ -45,8 +46,12 @@ def validate():
 def report_worker(path):
     """A fresh process runs only the trusted notebook's historical reporting section."""
     book = nbformat.read(path, as_version=4)
+    entries = json.loads((ROOT / "source_manifest.json").read_text())["notebooks"]
+    relative_path = path.resolve().relative_to(ROOT).as_posix()
+    entry = next(item for item in entries if item["repository_path"] == relative_path)
+    start = results_start(book, entry["results_start_cell_id"])
     namespace = {"__name__": "__main__"}
-    for i, cell in enumerate(book.cells[results_start(book):], start=results_start(book)):
+    for i, cell in enumerate(book.cells[start:], start=start):
         if cell.cell_type == "code":
             print(f"Running {path.name}:cell-{i}", flush=True)
             exec(compile(cell.source, f"{path.name}:cell-{i}", "exec"), namespace)

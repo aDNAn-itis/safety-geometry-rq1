@@ -4,8 +4,8 @@
       "source_name": "notebook1st.ipynb",
       "source_sha256": "e2716fe65654abdd960f163010bdf4249f0f0aebf78ef20a296cb16bbb255c93",
       "repository_path": "notebooks/01_feature_coverage.ipynb",
-      "repository_sha256": "0f04a0d23370249f9257310b48bd2da010d4c68becba5398644caa75884a58fd",
-      "cell_count": 25,
+      "repository_sha256": "cf505fd5fa234b462a3bb69355ab08f540959fc81f973ec54d0035b6787d1e3e",
+      "cell_count": 23,
       "changes": [
         {
           "cell_index": 24,
@@ -14,9 +14,13 @@
         {
           "cell_index": 23,
           "change": "Remove proposal-writing copy and local-output footer from source and saved Markdown output; retain findings."
+        },
+        {
+          "change": "User removed the Results introduction and final findings display cell; remaining source text and outputs preserved. CPU replay now starts from the recorded analysis cell ID."
         }
       ],
-      "saved_outputs": "Scientific figures and numeric tables preserved from the supplied notebook; selected presentation text edited as recorded above."
+      "saved_outputs": "Scientific figures and numeric tables preserved from the supplied notebook; selected presentation text edited as recorded above.",
+      "results_start_cell_id": "92f093eb"
     },
     {
       "source_name": "notebook-2.ipynb",
@@ -34,7 +38,8 @@
           "change": "Remove proposal-writing copy and local-output footer from source and saved Markdown output; retain findings."
         }
       ],
-      "saved_outputs": "Scientific figures and numeric tables preserved from the supplied notebook; selected presentation text edited as recorded above."
+      "saved_outputs": "Scientific figures and numeric tables preserved from the supplied notebook; selected presentation text edited as recorded above.",
+      "results_start_cell_id": "a945bf6b"
     },
     {
       "source_name": "notebook-3.ipynb",
@@ -43,7 +48,8 @@
       "repository_sha256": "f9f6fae73e400b466b4b8284a363e379f720f8003a1c01c2d47ac6e91e97a560",
       "cell_count": 27,
       "changes": [],
-      "saved_outputs": "Preserved from the supplied notebook; not regenerated during packaging."
+      "saved_outputs": "Preserved from the supplied notebook; not regenerated during packaging.",
+      "results_start_cell_id": "a65268e0"
     },
     {
       "source_name": "notebook-4.ipynb",
@@ -52,7 +58,8 @@
       "repository_sha256": "5db0f845d1696bc0765b5b8a19c67ba547ba8c8fb52519c7db1ea46af88a0a1f",
       "cell_count": 27,
       "changes": [],
-      "saved_outputs": "Preserved from the supplied notebook; not regenerated during packaging."
+      "saved_outputs": "Preserved from the supplied notebook; not regenerated during packaging.",
+      "results_start_cell_id": "e3097eb5"
     },
     {
       "source_name": "notebook-5.ipynb",
@@ -70,7 +77,8 @@
           "change": "Remove the repeated opening-audit conclusion; state that full-answer behavioral effects remain unestablished."
         }
       ],
-      "saved_outputs": "Scientific figures and numeric tables preserved from the supplied notebook; selected presentation text edited as recorded above."
+      "saved_outputs": "Scientific figures and numeric tables preserved from the supplied notebook; selected presentation text edited as recorded above.",
+      "results_start_cell_id": "8cfb00b4"
     },
     {
       "source_name": "notebook-6.ipynb",
@@ -92,7 +100,8 @@
           "change": "Remove the repeated provisional behavioral interpretation from the closing summary."
         }
       ],
-      "saved_outputs": "Scientific figures and numeric tables preserved from the supplied notebook; selected presentation text edited as recorded above."
+      "saved_outputs": "Scientific figures and numeric tables preserved from the supplied notebook; selected presentation text edited as recorded above.",
+      "results_start_cell_id": "7f7f1f4a"
     }
   ]
 }
