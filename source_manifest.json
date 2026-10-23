@@ -4,29 +4,37 @@
       "source_name": "notebook1st.ipynb",
       "source_sha256": "e2716fe65654abdd960f163010bdf4249f0f0aebf78ef20a296cb16bbb255c93",
       "repository_path": "notebooks/01_feature_coverage.ipynb",
-      "repository_sha256": "5e01b1b4b3663b98f54a799ce7908fd3bc117f8b0957922ce8196d92dd32b70a",
+      "repository_sha256": "0f04a0d23370249f9257310b48bd2da010d4c68becba5398644caa75884a58fd",
       "cell_count": 25,
       "changes": [
         {
           "cell_index": 24,
           "change": "Convert explanatory prose from code to Markdown; text unchanged."
+        },
+        {
+          "cell_index": 23,
+          "change": "Remove proposal-writing copy and local-output footer from source and saved Markdown output; retain findings."
         }
       ],
-      "saved_outputs": "Preserved from the supplied notebook; not regenerated during packaging."
+      "saved_outputs": "Scientific figures and numeric tables preserved from the supplied notebook; selected presentation text edited as recorded above."
     },
     {
       "source_name": "notebook-2.ipynb",
       "source_sha256": "790d28a3df51e82e05fddbc77568792d1ab1433ec9dd16ea00f1b6499f7e6b5c",
       "repository_path": "notebooks/02_candidate_discovery.ipynb",
-      "repository_sha256": "1b0e14c03f15321c6ad66270505e30905215ad92a8190062dcfe527579f855ac",
+      "repository_sha256": "1784bc258fd0010c750e8162b99d979ebc8d1d44468f04a8543e2052850a153f",
       "cell_count": 30,
       "changes": [
         {
           "cell_index": 29,
           "change": "Convert explanatory prose from code to Markdown; text unchanged."
+        },
+        {
+          "cell_index": 28,
+          "change": "Remove proposal-writing copy and local-output footer from source and saved Markdown output; retain findings."
         }
       ],
-      "saved_outputs": "Preserved from the supplied notebook; not regenerated during packaging."
+      "saved_outputs": "Scientific figures and numeric tables preserved from the supplied notebook; selected presentation text edited as recorded above."
     },
     {
       "source_name": "notebook-3.ipynb",
@@ -50,19 +58,41 @@
       "source_name": "notebook-5.ipynb",
       "source_sha256": "aa742f5aa456584a36e3d4919a501ca554b5d1154582c952260c6f5d0820c2b1",
       "repository_path": "notebooks/05_five_feature_interventions.ipynb",
-      "repository_sha256": "e2cb6c83562f1e8e0641abdf24f61009c4d00dadc78cc2149a45e3e1e1cef326",
+      "repository_sha256": "34dba23793faffcb2571d33aace07b3f358cf9d23064b2594e36bc83317e5328",
       "cell_count": 22,
-      "changes": [],
-      "saved_outputs": "Preserved from the supplied notebook; not regenerated during packaging."
+      "changes": [
+        {
+          "cell_index": 20,
+          "change": "Remove external opening-response audit narrative and output-location footer from source and saved outputs; preserve the full-answer review gate."
+        },
+        {
+          "cell_index": 21,
+          "change": "Remove the repeated opening-audit conclusion; state that full-answer behavioral effects remain unestablished."
+        }
+      ],
+      "saved_outputs": "Scientific figures and numeric tables preserved from the supplied notebook; selected presentation text edited as recorded above."
     },
     {
       "source_name": "notebook-6.ipynb",
       "source_sha256": "53bd5585588661001ec77c2d455e248765e598b3ca5e9aa4d8cf6442b6acd155",
       "repository_path": "notebooks/06_layer_trajectories.ipynb",
-      "repository_sha256": "5e2666f3791b510f7ffddff9884535c686eebb6c3e9f1fde273a8e8d5116de0e",
+      "repository_sha256": "0a38d597e5ab812d9b0e8a52ab6fadd434d67db33eacd1c01327ddb771e07cec",
       "cell_count": 24,
-      "changes": [],
-      "saved_outputs": "Preserved from the supplied notebook; not regenerated during packaging."
+      "changes": [
+        {
+          "cell_index": 14,
+          "change": "Clarify that archived groups are historical selections and independent whole-answer review remains pending."
+        },
+        {
+          "cell_index": 22,
+          "change": "Remove external archived-audit narrative and output-location footer from source and saved outputs; preserve figures, tables, and live-run review status."
+        },
+        {
+          "cell_index": 23,
+          "change": "Remove the repeated provisional behavioral interpretation from the closing summary."
+        }
+      ],
+      "saved_outputs": "Scientific figures and numeric tables preserved from the supplied notebook; selected presentation text edited as recorded above."
     }
   ]
 }
